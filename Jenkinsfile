@@ -6,6 +6,12 @@ pipeline {
         echo 'hello'
       }
     }
+    
+     stage('shout') {
+      steps {
+        echo 'shouting'
+      }
+    }
 
   }
 }
